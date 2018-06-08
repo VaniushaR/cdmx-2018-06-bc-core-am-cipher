@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <p><strong><center> Bienvenido al programa que te ayudará a evitar que tus secretos puedan ser descubiertos! <br>
+            1. Para empezar, ingresa el texto que quieres descifrar o cifrar
+            2. Elije o escribe tu número favorito como llave de apertura
+            3. Guarda y abre tus secretos </center></strong></p>
+        <center><input type="text" style="width : 490px; height: 100px" id="textToCipher" placeholder="                                            Escribe aquí el mensaje secreto!!">
+        <input type="text" style="width : 90px; height: 30px" id="favNumber" placeholder="    Número llave">
+        <br>
+        <br>
+        <br>
+        <input type="button" value="Codifica mi mensaje" onclick="cipher()">
+        <input type="button" value="Decodifica mi mensaje" onclick="decipher()"></center>
+            <br>
+            <br>
+        <div id="encode"></div>
+        <div id="decode"></div>
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
