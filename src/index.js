@@ -1,7 +1,7 @@
 //comprobar enlace
 console.log("conectado");
-//se declara arrowfunction encode
-  /*const encode = () => {
+/*se declara arrowfunction encode
+  const encode = () => {
   console.log("Inicio del cifrado");
   const texto = document.getElementById("textToCipher").value;
   const clave = parseInt(document.getElementById("favNumber").value);
