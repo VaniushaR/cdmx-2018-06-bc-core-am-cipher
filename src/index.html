@@ -4,22 +4,23 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <h1><center>CipherSecret</center></h1>
-    <h2><center> ¡El Cifrado César evitará que lean tus secretos! </center></h2>
+    <h2><center> ¡El Cifrado que cuidará tus mensajes secretos! </center></h2>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <p class="welcome"> <strong> <center> ¡Bienvenid@ al programa que te ayudará a evitar que tus secretos puedan ser descubiertos!  </center> </strong></p>
+  <body class="mainbody">
+    <div id="mobilebox">
+    <center><input type="text" style="width: 200px; height: 30px" id="name" placeholder="                Escribe tu nombre"></center>
+    <div id="welcome"> <strong> <center> ¡Bienvenid@ al programa que te ayudará a evitar que tus secretos puedan ser descubiertos!  </center> </strong></div>
     <br>
       <ul class="instructions"><center><strong> 1. Escribe un número de llave (debes recordar este número) <br>
             2. Escribe el mensaje que quieras codificar o descodificar <br>
             3. Presiona codificar o descodificar </strong> </center> </ul> <br>
             <br>
-
-        <center><input type="text" style="width : 90px; height: 30px" id="favNumber" placeholder="    Número llave">
+        <center><img src="key.jpg" alt="Key" width="100" height="50"><input type="password" style="width : 64px; height: 30px" box-shadow= "10px paleTurquoise" id="favNumber" placeholder="Key Number">;
         <br>
         <br>
         <br>
-        <input type="text" style="width: 490px; height: 100px" id="textToCipher" placeholder="                                      Escribe aquí el mensaje que quieras cifrar o descifrar!!">
+        <input type="text" style="width: 490px; height: 100px" id="textToCipher" placeholder="                                      Escribe aquí el mensaje que quieras cifrar o descifrar">
         <br>
         <br>
         <br>
@@ -29,8 +30,10 @@
             <br>
         <div id="encode"></div>
         <div id="decode"></div>
-    <div id="root"></div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+  </div>
   </body>
+  <footer><center> <strong> Laboratoria: Código que transforma </strong> </center> </footer>
 </html>

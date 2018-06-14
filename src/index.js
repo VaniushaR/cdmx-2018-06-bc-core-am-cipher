@@ -1,5 +1,7 @@
 //comprobar enlace
 console.log("conectado");
+
+
 /*se declara arrowfunction encode
   const encode = () => {
   console.log("Inicio del cifrado");
