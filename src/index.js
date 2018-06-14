@@ -1,6 +1,28 @@
 //comprobar enlace
 console.log("conectado");
 
+//name : () => {document.getElementById("name").write;
+//}
+const texto = document.getElementById("textToCipher");
+const texto1 = document.getElementById("textToCipher");
+const clave = document.getElementById("favNumber");
+console.log(texto);
+
+const cifrado1 =() => {
+let cipher1 = texto.value;
+let offset = parseInt(clave.value);
+
+
+document.getElementById('encode1').innerHTML = "Tu mensaje cifrado es: " + cipher.encode(cipher1, offset);
+}
+
+const descifrado1 = () => {
+let texto2 = texto1.value;
+let offset = parseInt(clave.value);
+
+document.getElementById('decode').innerHTML = "Tu mensaje descifrado es:  \n "  + cipher.decode(texto2, offset);
+console.log(cipher.decode(texto2, offset));
+}
 
 /*se declara arrowfunction encode
   const encode = () => {
