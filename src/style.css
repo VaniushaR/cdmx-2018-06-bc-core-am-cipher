@@ -1,26 +1,30 @@
 
 h1 {
-    color: Turquoise;
-    font-family: verdana;
+    color: white;
+    font-family: ;
     font-size: 240%;
   }
 
 .instructions {
-    color: gray;
+    color: lightgray;
     font-family: verdana;
     font-size: 100%;
   }
 
-.mainbody {
-    background-image: url(./pinkbrilliant.jpg);
+.container {
+    background-image: url(./universe.jpg);
+    width: 100%;
+    margin: 0;
     color: aquamarine;
  }
 
 #mobilebox {
-    background-color: rgba(157, 239, 239, 0.72);
+
 }
 
 #welcome {
-    background-color: azure;
     color: Turquoise;
+}
+.piedep {
+  background-color: lightgray;
 }

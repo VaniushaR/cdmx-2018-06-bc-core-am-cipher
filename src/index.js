@@ -7,7 +7,7 @@ const texto = document.getElementById("textToCipher");
 const texto1 = document.getElementById("textToCipher");
 const clave = document.getElementById("favNumber");
 console.log(texto);
-
+//función arrow de cifrar:
 const cifrado1 =() => {
 let cipher1 = texto.value;
 let offset = parseInt(clave.value);
@@ -16,6 +16,7 @@ let offset = parseInt(clave.value);
 document.getElementById('encode1').innerHTML = "Tu mensaje cifrado es: " + cipher.encode(cipher1, offset);
 }
 
+//función arrow descifrado:
 const descifrado1 = () => {
 let texto2 = texto1.value;
 let offset = parseInt(clave.value);

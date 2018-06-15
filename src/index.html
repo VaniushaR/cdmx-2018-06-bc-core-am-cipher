@@ -7,17 +7,15 @@
     <h2><center> ¡El Cifrado que cuidará tus mensajes secretos! </center></h2>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="mainbody">
-    <div id="mobilebox">
-    <center><input type="text" style="width: 200px; height: 30px" id="name" placeholder="                Escribe tu nombre">
-    <input type="button" value="Aceptar" onclick="name()"> </center>
+  <body class="container">
+  <div id="mobilebox">
     <div id="welcome"> <strong> <center> ¡Bienvenid@ al programa que te ayudará a evitar que tus secretos puedan ser descubiertos!  </center> </strong></div>
     <br>
       <ul class="instructions"><center><strong> 1. Escribe un número de llave (debes recordar este número) <br>
             2. Escribe el mensaje que quieras codificar o descodificar <br>
             3. Presiona codificar o descodificar </strong> </center> </ul> <br>
             <br>
-        <center><img src="key.jpg" alt="Key" width="100" height="50"><input type="password" style="width : 64px; height: 30px" box-shadow= "10px paleTurquoise" id="favNumber" placeholder="Key Number">;
+        <center><input type="password" style="width: 64px; height: 30px" box-shadow= "10px paleTurquoise" id="favNumber" placeholder="Key Number">
         <br>
         <br>
         <br>
@@ -29,12 +27,12 @@
         <input type="button" value="Decodifica mi mensaje" onclick="descifrado1()"></center>
             <br>
             <br>
-        <div id="encode1"></div>
+        <center><strong><div id="encode1"> </div></strong></center>
         <div id="decode"></div>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </div>
   </body>
-  <footer><center> <strong> Laboratoria: Código que transforma </strong> </center> </footer>
+  <footer class="piedep"><center><strong> Laboratoria: Código que transforma </strong> </center> </footer>
 </html>
