@@ -1,30 +1,44 @@
 
 h1 {
     color: white;
-    font-family: ;
-    font-size: 240%;
+    font-family: 'Lobster',cursive;
+    font-size: 400%;
   }
-
+h2 {
+  color: Turquoise;
+  font-family: 'Lobster',cursive;
+  font-size: 190%;
+}
 .instructions {
-    color: lightgray;
-    font-family: verdana;
-    font-size: 100%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 130%;
   }
 
 .container {
     background-image: url(./universe.jpg);
     width: 100%;
     margin: 0;
-    color: aquamarine;
+    color: white;
  }
+#encode1 {
+  background-color: rgba(31, 255, 244, 0.54);
+  font-family: 'Courgette', cursive;
+  font-size: 100%;
+}
+
+#decode{
+  background-color: rgba(135, 31, 255, 0.64);
+  font-family: 'Courgette', cursive;
+  font-size: 100%;
+}
 
 #mobilebox {
-
+font-family: 'Courgette', cursive;
 }
 
-#welcome {
-    color: Turquoise;
-}
 .piedep {
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
+  font-size: 80%;
 }
